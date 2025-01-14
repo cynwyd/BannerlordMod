@@ -206,6 +206,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GetXpCostForUpgradePostFix.cs" />
     <Compile Include="GetGoldCostForUpgradePostFix.cs" />
     <Compile Include="MySubModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
