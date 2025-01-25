@@ -15,13 +15,33 @@ namespace ExampleMod
         {
             if (upgradeTarget.Tier == 6)
             {
-                __result += 8000;
+                if (upgradeTarget.IsMounted)
+                {
+                    __result += 12000;
+                } else
+                {
+                    __result += 4000;
+                }
             } else if (upgradeTarget.Tier == 5)
             {
-                __result += 3000;
+                if (upgradeTarget.IsMounted)
+                {
+                    __result += 6000;
+                }
+                else
+                {
+                    __result += 2000;
+                }
             } else if (upgradeTarget.Tier == 4)
             {
-                __result += 500;
+                if (upgradeTarget.IsMounted)
+                {
+                    __result += 3000;
+                }
+                else
+                {
+                    __result += 1000;
+                }
             }
         }
     }
