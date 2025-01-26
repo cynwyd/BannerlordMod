@@ -206,6 +206,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GetSurvivalChancePostFix.cs" />
+    <Compile Include="CalculateLoyaltyChangePostFix.cs" />
+    <Compile Include="LoyaltyPenaltyPrefix.cs" />
     <Compile Include="CalculateGoldGainDueToHighLoyaltyPostFix.cs" />
     <Compile Include="GetXpCostForUpgradePostFix.cs" />
     <Compile Include="GetGoldCostForUpgradePostFix.cs" />
