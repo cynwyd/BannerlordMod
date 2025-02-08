@@ -18,7 +18,7 @@ namespace ExampleMod
         [HarmonyPostfix]
         public static void GetSurvivalChance(PartyBase party, CharacterObject character, TaleWorlds.Core.DamageTypes damageType, bool canDamageKillEvenIfBlunt, ref float __result)
         {
-            // With all surgeon skills, should give tier 6 troops 95%, 5 -> 90%, 4 
+            // With all surgeon skills, should give tier 6 troops 95%, 5 -> 90%, 4 -> 85%
             if (!character.IsHero)
             {
                 if (character.Tier == 6)
