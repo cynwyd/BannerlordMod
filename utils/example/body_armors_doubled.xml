@@ -2376,9 +2376,9 @@
 		Type="BodyArmor">
 		<ItemComponent>
 			<Armor
-				body_armor="92"
-				leg_armor="52"
-				arm_armor="46"
+				body_armor="20000"
+				leg_armor="6000"
+				arm_armor="20000"
 				covers_body="true"
 				modifier_group="plate"
 				material_type="Plate" />
