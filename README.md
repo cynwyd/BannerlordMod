@@ -37,3 +37,4 @@ There are probably more things I will add, but those are my main gripes with the
  - Increase bonus income from high loyalty from ~1-25% to ~2-50%, scaling from loyalty 75+
  - Decrease settlement loyalty debuff due to different culture from -3 to -2
  - If player has less than 6 settlements, different settlement culture penalty is 0
+ - Double all armor values through xmls
